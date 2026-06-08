@@ -1,53 +1,228 @@
-🎯 AI Career Advisor
+# 🎯 AI Career Advisor
 
-An AI-powered career guidance platform that helps students and aspiring professionals evaluate their career readiness using their CVs and LinkedIn profiles.
+An AI-powered career guidance platform that helps students, fresh graduates, and aspiring professionals evaluate their career readiness using their resumes and LinkedIn profiles.
 
-The system leverages Natural Language Processing (NLP), Machine Learning, and Large Language Models (LLMs) to analyze a user's skills, education, projects, certifications, and experience, then generates personalized career insights and recommendations.
+The system leverages **Natural Language Processing (NLP)**, **Machine Learning**, and **Large Language Models (LLMs)** to analyze skills, education, projects, certifications, and experience, then generates personalized career insights and recommendations.
 
-🚀 Features
-📄 Resume & LinkedIn Analysis
-Upload CVs in PDF format
-Extract and analyze skills, education, projects, and experience
-Process LinkedIn profile information
-📊 Career Readiness Assessment
-Generate an overall Career Readiness Score
-Evaluate internship/job preparedness
-Identify strengths and improvement areas
-🧠 Skill Gap Analysis
-Compare user skills against industry requirements
-Detect missing technical and soft skills
-Highlight high-demand technologies in the job market
-🎓 Personalized Learning Recommendations
-Recommend courses and certifications
-Suggest learning roadmaps based on career goals
-Provide technology-specific improvement plans
-💡 Project Recommendations
-Generate portfolio project ideas based on current skills
-Recommend projects aligned with target career paths
-Identify projects that improve employability
-📈 Internship Readiness Score
-Evaluate readiness for Data Science, Data Analytics, Data Engineering, and AI internships
-Provide actionable feedback to improve employability
-🛠️ Tech Stack
-Python
-Streamlit
-NLP (spaCy, NLTK)
-OpenAI API
-Pandas
-Scikit-learn
-SQL Server / SQLite
-Plotly
-Git & GitHub
-🎯 Target Users
-Undergraduate Students
-Fresh Graduates
-Internship Seekers
-Career Switchers
-Data Science & AI Enthusiasts
-📌 Future Enhancements
-Job Market Trend Analysis
-Automated LinkedIn Profile Scoring
-Interview Question Recommendations
-AI-Powered Resume Optimization
-Job Matching Engine
-Personalized Career Roadmaps
+---
+
+## 📌 Overview
+
+Finding the right career path can be challenging, especially for students and recent graduates entering the job market. AI Career Advisor bridges this gap by providing intelligent career analysis and actionable recommendations tailored to individual profiles.
+
+Users can upload their CVs and optionally provide LinkedIn profile information to receive:
+
+* Career readiness assessments
+* Skill gap analysis
+* Personalized learning recommendations
+* Portfolio project suggestions
+* Internship readiness evaluations
+
+---
+
+## 🚀 Features
+
+### 📄 Resume & LinkedIn Analysis
+
+* Upload resumes in PDF format
+* Extract and analyze skills, education, projects, and experience
+* Process LinkedIn profile information
+* Generate structured candidate profiles
+
+### 📊 Career Readiness Assessment
+
+* Generate an overall Career Readiness Score
+* Evaluate internship and job preparedness
+* Identify strengths and improvement areas
+* Provide detailed career insights
+
+### 🧠 Skill Gap Analysis
+
+* Compare existing skills with industry requirements
+* Detect missing technical and soft skills
+* Highlight trending and high-demand technologies
+* Recommend priority areas for improvement
+
+### 🎓 Personalized Learning Recommendations
+
+* Recommend relevant courses and certifications
+* Generate customized learning roadmaps
+* Suggest technology-specific learning resources
+* Support career-focused skill development
+
+### 💡 Project Recommendations
+
+* Generate portfolio project ideas based on current skills
+* Recommend projects aligned with career goals
+* Suggest real-world projects that enhance employability
+* Provide project complexity levels and technology stacks
+
+### 📈 Internship Readiness Score
+
+* Assess readiness for:
+
+  * Data Science Internships
+  * Data Analytics Internships
+  * Data Engineering Internships
+  * AI/ML Internships
+* Provide actionable recommendations to improve employability
+
+---
+
+## 🏗️ System Architecture
+
+```text
+Resume (PDF) / LinkedIn Profile
+               │
+               ▼
+      Data Extraction Layer
+               │
+               ▼
+      NLP Processing Engine
+               │
+               ▼
+      Skills & Profile Analysis
+               │
+               ├──────────────► Career Readiness Scoring
+               │
+               ├──────────────► Skill Gap Analysis
+               │
+               ├──────────────► Learning Recommendations
+               │
+               ▼
+      AI Recommendation Engine
+               │
+               ▼
+         Interactive Dashboard
+```
+
+---
+
+## 🛠️ Technology Stack
+
+### Programming Languages
+
+* Python
+
+### Machine Learning & AI
+
+* Scikit-learn
+* OpenAI API
+* NLP Techniques
+* Prompt Engineering
+
+### NLP Libraries
+
+* spaCy
+* NLTK
+
+### Data Processing
+
+* Pandas
+* NumPy
+
+### Visualization
+
+* Plotly
+* Matplotlib
+
+### Database
+
+* SQLite / SQL Server
+
+### Frontend
+
+* Streamlit
+
+### Version Control
+
+* Git
+* GitHub
+
+---
+
+## 📊 Example Outputs
+
+### Career Readiness Report
+
+* Overall Career Score
+* Technical Skills Assessment
+* Soft Skills Assessment
+* Industry Alignment Score
+
+### Skill Gap Analysis
+
+```text
+Target Role: Data Scientist
+
+Current Skills:
+✓ Python
+✓ SQL
+✓ Statistics
+✓ Power BI
+
+Missing Skills:
+✗ Machine Learning Deployment
+✗ Deep Learning
+✗ Cloud Platforms (AWS/Azure)
+✗ MLOps
+```
+
+### Recommended Learning Path
+
+```text
+Step 1 → Learn Machine Learning Fundamentals
+Step 2 → Build End-to-End ML Projects
+Step 3 → Learn Model Deployment
+Step 4 → Learn Cloud Technologies
+Step 5 → Build Production-Ready Portfolio Projects
+```
+
+---
+
+## 🎯 Target Users
+
+* Undergraduate Students
+* Fresh Graduates
+* Internship Seekers
+* Career Switchers
+* Data Science Enthusiasts
+* Data Analysts
+* Data Engineers
+* AI/ML Learners
+
+---
+
+## 📌 Future Enhancements
+
+* Job Market Trend Analysis
+* Automated LinkedIn Profile Scoring
+* Interview Question Recommendations
+* AI-Powered Resume Optimization
+* Job Matching Engine
+* Personalized Career Roadmaps
+* Resume Ranking System
+* Real-Time Job Recommendation Engine
+* ATS Compatibility Analysis
+* Multi-Language Resume Support
+
+---
+
+## 🔒 Disclaimer
+
+This project is developed for educational, research, and portfolio purposes. Career recommendations generated by the system are intended to assist users and should not be considered professional career counseling.
+
+---
+
+## 👨‍💻 Author
+
+**Sandeepa Gunathilaka**
+
+Data Science Undergraduate | SLIIT
+
+* GitHub: https://github.com/SandeepaGunathilaka
+* LinkedIn: https://linkedin.com/in/dilanka-sandeepa-gunathilaka
+
+---
+
+⭐ If you found this project useful, consider giving it a star on GitHub.
