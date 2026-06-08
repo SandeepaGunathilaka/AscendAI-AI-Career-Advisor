@@ -1,4 +1,4 @@
-# 🎯 AI Career Advisor
+# 🎯 AscendAI (AI Career Advisor)
 
 An AI-powered career guidance platform that helps students, fresh graduates, and aspiring professionals evaluate their career readiness using their resumes and LinkedIn profiles.
 
